@@ -19,7 +19,7 @@ namespace DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            //optionsBuilder.UseSqlServer("Server=DESKTOP-JOE3R5V;Database=GenericProject;uid=cahit;pwd=123");
+            //optionsBuilder.UseSqlServer("Server=DESKTOP-JOE3R5V;Database=GenericProject;uid=;pwd=");
         }
         public ProjeDbContext(DbContextOptions<ProjeDbContext> dbContextOptions) : base(dbContextOptions)
         {
