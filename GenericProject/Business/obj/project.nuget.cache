@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wg/7l8f+Wr02FE/1ktHdWgoOMlYmvepXVMoNAjYIk1LnvZjjoJSmyiU9qQeCtydgFGzF0Iy5XBZO3U8reamBxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cahit\\source\\repos\\GenericProject\\Business\\Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cahit\\.nuget\\packages\\system.linq.dynamic.core\\1.2.15\\system.linq.dynamic.core.1.2.15.nupkg.sha512"
+  ],
+  "logs": []
+}

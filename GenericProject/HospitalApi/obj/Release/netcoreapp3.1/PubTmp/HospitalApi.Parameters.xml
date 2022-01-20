@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="hastanerandevu" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\cahit\\source\\repos\\GenericProject\\HospitalApi\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="DataAccess.ProjeDbContext" description="" value="Data Source=tcp:hospitalrandevuapidbserver.database.windows.net,1433;Initial Catalog=HospitalApi_db;User Id=cahit@hospitalrandevuapidbserver;Password=test123." tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\cahit\\source\\repos\\GenericProject\\HospitalApi\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\DataAccess\.ProjeDbContext\.sql$" />
+  </parameter>
+</parameters>

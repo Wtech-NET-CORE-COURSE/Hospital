@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK0r10geuAES+ug+obi48KwAAAAACAAAAAAAQZgAAAAEAACAAAACgJZimBWAmVaPo9lK+49aMENAsyxnWbBmNM4hV5VL+QwAAAAAOgAAAAAIAACAAAACJcc0d2uLiy8LYVvwhPw0RnUriz6J2Su05qHhhR56a/oAAAADshfsUs5KD3noXLLtiG7YAOzdTa1aKu++mdo1ySPYfBnDXc0Slii+aPo0W7ekNRMJSp8+qXUIr1u+0kpvfH/GeBbOy5VSrxiv/lCu4Sc8ze6oCqUWiyGIe7pXIdN6u3vn1YzIdTbTIQcalZYQF6d2XJc9af5DBW9DTeZDQb/GBekAAAADFSt70wEV8g+rCACSTC1f0KFnVrQyuyoBIOjlpxxeTLgKVQLtHDepsT18xda3tG5S1Bc6Xocou7qu7hPgoV6EO</EncryptedPassword>
+    <History>False|2021-12-03T16:34:30.9955782Z;False|2021-12-03T19:32:29.0168336+03:00;False|2021-12-03T15:00:08.0859479+03:00;False|2021-12-03T14:58:37.4363590+03:00;False|2021-12-03T14:57:55.7967736+03:00;False|2021-12-03T14:56:20.7074571+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:apihospitaldbcahit.database.windows.net,1433%3bInitial Catalog=ApıHospital_db%3bUser Id=test%40apihospitaldbcahit%3bPassword=Cahit1341%3f</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="DataAccess.ProjeDbContext">
+      <Value>Data Source=tcp:apihospitaldbcahit.database.windows.net,1433%3bInitial Catalog=ApıHospital_db%3bUser Id=test%40apihospitaldbcahit%3bPassword=Cahit1341%3f</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

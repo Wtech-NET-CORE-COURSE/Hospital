@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Business/1.0.0": {
+        "dependencies": {
+          "Entity": "1.0.0",
+          "System.Linq.Dynamic.Core": "1.2.15"
+        },
+        "runtime": {
+          "Business.dll": {}
+        }
+      },
+      "System.Linq.Dynamic.Core/1.2.15": {
+        "runtime": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.2.15.0",
+            "fileVersion": "1.2.15.0"
+          }
+        }
+      },
+      "Entity/1.0.0": {
+        "dependencies": {
+          "System.Linq.Dynamic.Core": "1.2.15"
+        },
+        "runtime": {
+          "Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Linq.Dynamic.Core/1.2.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-46PeyhpG36FWBFShRlmumMWGqdUd8SA+NMd/DwnGzkHY3SzFPAILndgViRzcUtsHhqGBrMOI0aqhpm0u9JAitg==",
+      "path": "system.linq.dynamic.core/1.2.15",
+      "hashPath": "system.linq.dynamic.core.1.2.15.nupkg.sha512"
+    },
+    "Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

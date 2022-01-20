@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KYM7O5WVzyDtRjBrFESJ4Ogvfmj+CPqND9+03kFk1PP4MUObywZQlTjZzx1L7ieM43uwe5vimI0MabufO/+kuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cahit\\source\\repos\\GenericProject\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cahit\\.nuget\\packages\\system.linq.dynamic.core\\1.2.15\\system.linq.dynamic.core.1.2.15.nupkg.sha512"
+  ],
+  "logs": []
+}

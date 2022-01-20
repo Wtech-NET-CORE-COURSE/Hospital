@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="hospital" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\cahit\\source\\repos\\GenericProject\\ApıHospital\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="DataAccess.ProjeDbContext" description="" value="Server=DESKTOP-JOE3R5V;Database=GenericProject;uid=cahit;pwd=123;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\cahit\\source\\repos\\GenericProject\\ApıHospital\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\DataAccess\.ProjeDbContext\.sql$" />
+  </parameter>
+</parameters>

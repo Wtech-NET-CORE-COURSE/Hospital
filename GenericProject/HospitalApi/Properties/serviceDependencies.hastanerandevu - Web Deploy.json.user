@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "restored": true,
+      "restoreTime": "2021-12-09T10:41:21.5586089Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-12-05T13:11:30.3318654Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "02fd8bce-1e1e-4d96-8140-5fefbbe874e0"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Hospital"
+    }
+  }
+}

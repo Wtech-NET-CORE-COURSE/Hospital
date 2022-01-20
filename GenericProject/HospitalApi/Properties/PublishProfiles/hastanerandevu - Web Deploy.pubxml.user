@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK0r10geuAES+ug+obi48KwAAAAACAAAAAAAQZgAAAAEAACAAAADlLLhi9gb6OzEea/l3OaUoeYwr6MO8Iqtz1Z4GnNSA0AAAAAAOgAAAAAIAACAAAADQwAVhRMHPh1H4RVndA2lels2rxuCJrXVCbrED3q6AjoAAAAARbL2aDyK9DiEaQjEDHFgYvpSvkLxIr75LdVUITLH+LbrF/kR5MwDEHJpyFEJ1nGblntDevIucwCwZRSPRYyBiT5bhkyxGHN4pijYSRmsrbAxjtxoIYBWKQqyuuVOu22i7qZqQ1c3JtiIxVE2kJKDbgn1UcEDvWTiYQBlhKm1mg0AAAADUycEcMKv60vg3ZkHM213s1iao+HFi8pnhB8S25nFa28YJuQ1f72y6y5qkqzD6FFpOWEqmmy9fBup3mn7doH66</EncryptedPassword>
+    <History>True|2021-12-06T07:18:03.4082709Z;False|2021-12-06T10:14:24.6381787+03:00;False|2021-12-06T10:13:52.3466714+03:00;False|2021-12-06T10:13:47.3476631+03:00;False|2021-12-06T10:13:03.8713133+03:00;True|2021-12-06T09:52:14.9567314+03:00;True|2021-12-05T17:28:48.9199967+03:00;True|2021-12-05T16:37:10.9127914+03:00;False|2021-12-05T16:27:20.1929945+03:00;False|2021-12-05T16:15:27.7589682+03:00;False|2021-12-05T16:13:07.2946800+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:hospitalrandevuapidbserver.database.windows.net,1433%3bInitial Catalog=HospitalApi_db%3bUser Id=cahit%40hospitalrandevuapidbserver%3bPassword=test123.</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="DataAccess.ProjeDbContext">
+      <Value>Data Source=tcp:hospitalrandevuapidbserver.database.windows.net,1433%3bInitial Catalog=HospitalApi_db%3bUser Id=cahit%40hospitalrandevuapidbserver%3bPassword=test123.</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
